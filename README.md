@@ -38,3 +38,28 @@ To launch the Streamlit web application, use the following command:
 ```bash
 streamlit run main.py
 ```
+
+## Understanding the Model
+
+### Data Preprocessing
+
+The IMDB dataset is loaded using tensorflow.keras.datasets.imdb.
+
+Reviews are tokenized and indexed as integers.
+
+Reviews are padded to a fixed length using pad_sequences to ensure uniform input size.
+
+### Model Architecture
+
+An Embedding Layer maps words to dense vector representations.
+
+A Simple RNN Layer processes the sequential data to extract temporal patterns.
+
+A Dense Layer with Sigmoid Activation outputs a probability score for sentiment classification.
+
+### Training Process
+
+The model is compiled using the Adam optimizer and binary cross-entropy loss function.
+
+An EarlyStopping callback prevents overfitting by stopping training when validation loss stagnates.
+
