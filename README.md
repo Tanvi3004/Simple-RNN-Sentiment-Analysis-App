@@ -70,7 +70,7 @@ Simple RNNs are weak at capturing long-term dependencies. Replace SimpleRNN with
 ### 2.Train for More Epochs
 Your model might not have trained enough to learn proper representations.
 Try increasing epochs gradually (e.g., from 5 → 10 → 15) to see improvements.
-- ✅ Why?
+- Why?
   - Training longer allows the model to generalize better.
   - Monitor val_loss: If it increases while train_loss decreases, stop early (use EarlyStopping).
 ### 3. Use Pretrained Word Embeddings (GloVe or Word2Vec)
@@ -80,3 +80,6 @@ Instead of random word embeddings, use pretrained embeddings like GloVe for bett
   - Helps model generalize better, improving accuracy.
  ### 4. Balance the Dataset for Better Predictions
 Check if your dataset is biased towards one sentiment
+- Why?
+  - If the dataset is imbalanced, the model learns a bias.
+  - Balancing it ensures fair learning.
