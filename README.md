@@ -70,6 +70,8 @@ This is how the app looks when running:
 <img width="880" alt="Image" src="https://github.com/user-attachments/assets/75edf108-7be2-4a2a-8f85-9005e00aa9e1" />
 <img width="861" alt="Image" src="https://github.com/user-attachments/assets/646fbd42-360f-44bb-b5eb-3abcb72e717b" />
 
+**Note:** The initial model had a low accuracy due to limitations in Simple RNN. To improve accuracy, consider using Bidirectional LSTM, pretrained embeddings (GloVe), and balancing the dataset. 🚀
+
 # 🚀 How to Improve Prediction Score?
 ### 1. Use a More Advanced Model (LSTM or Bidirectional LSTM)
 Simple RNNs are weak at capturing long-term dependencies. Replace SimpleRNN with Bidirectional LSTM.
