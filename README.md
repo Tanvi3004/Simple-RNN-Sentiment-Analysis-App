@@ -63,3 +63,14 @@ The model is compiled using the Adam optimizer and binary cross-entropy loss fun
 
 An EarlyStopping callback prevents overfitting by stopping training when validation loss stagnates.
 
+
+# 🚀 How to Improve Prediction Score?
+### 1. Use a More Advanced Model (LSTM or Bidirectional LSTM)
+Simple RNNs are weak at capturing long-term dependencies. Replace SimpleRNN with Bidirectional LSTM.
+### 2.Train for More Epochs
+Your model might not have trained enough to learn proper representations.
+Try increasing epochs gradually (e.g., from 5 → 10 → 15) to see improvements.
+ - ✅ Why?
+  - Training longer allows the model to generalize better.
+  - Monitor val_loss: If it increases while train_loss decreases, stop early (use EarlyStopping).
+
