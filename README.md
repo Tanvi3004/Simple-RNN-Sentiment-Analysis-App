@@ -83,3 +83,19 @@ Check if your dataset is biased towards one sentiment
 - Why?
   - If the dataset is imbalanced, the model learns a bias.
   - Balancing it ensures fair learning.
+### 5.Lower Learning Rate for Better Generalization
+Modify the learning rate for more stable training:
+- Why?
+  - A high learning rate makes training unstable.
+  - A lower learning rate helps model learn fine-grained patterns.
+## Final Steps
+### 1. Replace SimpleRNN with Bidirectional LSTM ✅
+### 2. Train for more epochs (10-15) with EarlyStopping ✅
+### 3. Use pretrained embeddings (GloVe) ✅
+### 4. Balance dataset (if needed) ✅
+### 5. Reduce learning rate (0.0001) for stable training ✅
+
+### Next Actions
+Try these improvements one by one.
+Retrain your model and check new prediction scores.
+# This should boost accuracy and confidence! 🚀
