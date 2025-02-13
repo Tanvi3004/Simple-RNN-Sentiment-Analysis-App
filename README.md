@@ -63,6 +63,9 @@ The model is compiled using the Adam optimizer and binary cross-entropy loss fun
 
 An EarlyStopping callback prevents overfitting by stopping training when validation loss stagnates.
 
+## Streamlit Sentiment Analysis App
+
+This is how the app looks when running:
 
 # 🚀 How to Improve Prediction Score?
 ### 1. Use a More Advanced Model (LSTM or Bidirectional LSTM)
