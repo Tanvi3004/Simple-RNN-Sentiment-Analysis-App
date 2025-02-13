@@ -97,5 +97,5 @@ Modify the learning rate for more stable training:
 
 ### Next Actions
 Try these improvements one by one.
-Retrain your model and check new prediction scores.
+Retrain model and check new prediction scores.
 # This should boost accuracy and confidence! 🚀
