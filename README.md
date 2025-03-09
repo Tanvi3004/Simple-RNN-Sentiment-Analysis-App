@@ -21,7 +21,8 @@ Before running the project, ensure that you have the following installed:
 ## Steps to Install and Run
 ### 1. Clone the repository:
 ```bash
-https://github.com/Tanvi3004/Simple-RNN-Sentiment-Analysis-App/tree/main
+git clone https://github.com/Tanvi3004/Simple-RNN-Sentiment-Analysis-App.git
+cd Simple-RNN-Sentiment-Analysis
 ```
 ### 2. Create a virtual environment (optional but recommended):
 ``` bash
